@@ -6,6 +6,8 @@ This project contains :
       
 * Folder NWE2023/, with code and data related to the paper "Stochastic Dual Dynamic Programming as a modelling Tool for Power Systems with Demand Response and intermittent Renewables", J. Ancel and O. Massol, Jul. 2022.
 
+In order to use postreatment files i.e. NWE2023/postreat.py and France2050/postraitement.py, outputs folders, output files and paths must be created and written accordingly.
+
 It requires : 
 
 * Julia with packages SDDP.jl, CPLEX.jl (which requires the CPLEX solver)
