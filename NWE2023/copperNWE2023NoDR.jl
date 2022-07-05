@@ -1,8 +1,8 @@
 using SDDP, GLPK, Plots, DelimitedFiles, CSV, DataFrames, Statistics, CPLEX
 
 
-pathoutputs = "C:/Users/jujua/Desktop/M2_EEET/Stage CEC/NorthWestEurope/2023outputs/NoDRLP/"
-pathdata = "C:/Users/jujua/Desktop/M2_EEET/Stage CEC/NorthWestEurope/Data/"
+pathoutputs = ""
+pathdata = ""
 
 T = 364 # Nombre d'étapes
 ##########################################################################
