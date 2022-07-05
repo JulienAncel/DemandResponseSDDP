@@ -1,7 +1,7 @@
 using SDDP, GLPK, Plots, DelimitedFiles, CSV, DataFrames, Statistics,CPLEX
 
-pathoutputs = "C:/Users/jujua/Desktop/M2_EEET/Stage CEC/Sorties_remplissage/Sorties_N03/With_DR/"
-pathdata = "C:/Users/jujua/Desktop/M2_EEET/Stage CEC/Data/"
+pathoutputs = ""
+pathdata = ""
 
 T = 364 # Nombre d'étapes
 ##########################################################################
