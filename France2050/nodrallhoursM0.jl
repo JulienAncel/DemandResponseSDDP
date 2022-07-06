@@ -61,7 +61,7 @@ graph = SDDP.LinearGraph(T)
 function subproblem_builder(subproblem::Model, node::Int64)
     # State Variables
     @variable(subproblem, 0 <= Xhy[h=1:24] , SDDP.State,initial_value= Shy_t[1])
-    @variable(subproblem, 0 <= Xhp[h=1:24] <= Shp, SDDP.State,initial_value= Shp_t[1])
+    @variable(subproblem, 0 <= Xhp[h=1:24] <= maxhp, SDDP.State,initial_value= Shp_t[1])
     
     #Control Variables
     @variable(subproblem, 0 <= imports[h=1:24]  <= Cinterco)
